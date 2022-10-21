@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "war-edit-command-set-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/warEditCommandSet/WarEditCommandSetCommandSet.js",
+          "manifest": "./src/extensions/warEditCommandSet/WarEditCommandSetCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WarEditCommandSetCommandSetStrings": "lib/extensions/warEditCommandSet/loc/{locale}.js"
+  }
+}
